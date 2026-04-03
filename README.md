@@ -2,8 +2,15 @@
 
 ![Rate limit screen](rate-limit.png)
 
-Auto-resume your Claude Code CLI session after a rate limit refill window. Simple, terminal-blocking, no daemons, no background processes.
+Auto-resume your Claude Code CLI session after a rate limit refill window!
 
+ - hit ctrl+c to exit claude code (it'll show you the resume command with "chat-id")
+ - type resumeclaude
+ - answer the questions!
+    - specify minutes to wait
+    - specify your chat id (copy paste from terminal history easily)
+    - usually just press enter to have it add "continue" as the first command (or specify instructions)
+    - wait!
 ---
 
 ## The Problem
