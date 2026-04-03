@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p "Minutes to wait: " minutes
+read -p "Chat ID: " chat_id
+read -p "Command (enter for 'continue'): " command
+command=${command:-continue}
+
+sleep $((minutes * 60)) && claude --resume "$chat_id" "$command"
