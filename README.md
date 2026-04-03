@@ -1,5 +1,7 @@
 # autoresume-claude-code
 
+![Rate limit screen](rate-limit.png)
+
 Auto-resume your Claude Code CLI session after a rate limit refill window. Simple, terminal-blocking, no daemons, no background processes.
 
 ---
