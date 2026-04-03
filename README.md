@@ -40,13 +40,10 @@ The terminal is tied up while waiting. On a GUI OS (Mac, Windows, most Linux des
 
 ## Finding Your Chat ID
 
-When Claude Code hits a rate limit or when you're in a session, the chat/conversation ID is shown in the CLI output. It looks like a UUID:
+When you use ctrl+c twice to exit the claude code cli interface, you'll see a chat resume command:
+ claude --resume 8401fef1-e051-40aa-ba06-eea6ff8e28c9
 
-```
-Session: abc123de-f456-7890-abcd-ef1234567890
-```
-
-Copy that ID when prompted by resumeclaude.
+Copy that ID after the word resume and pate in when prompted by resumeclaude.
 
 ---
 
